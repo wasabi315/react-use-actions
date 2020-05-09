@@ -73,7 +73,7 @@ const actions = defineActions<State>()({
   // You can pass arguments to actions
   bar: (state, arg1: T1, arg2: T2) => { return ... },
   // Optional argument and variable length argument is allowed
-  baz: (state, arg3: T3, ...arg4: T4[]) => { return ... },
+  baz: (state, arg3: T3 = t3, ...arg4: T4[]) => { return ... },
 })
 ```
 
