@@ -4,6 +4,14 @@
   "version": "1.0.0",
   "author": "wasabi315",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wasabi315/react-use-actions.git"
+  },
+  "homepage": "https://github.com/wasabi315/react-use-actions#readme",
+  "bugs": {
+    "url": "https://github.com/wasabi315/react-use-actions/issues"
+  },
   "main": "dist/index.js",
   "module": "dist/react-use-actions.esm.js",
   "typings": "dist/index.d.ts",
