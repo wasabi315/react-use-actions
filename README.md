@@ -51,7 +51,7 @@ const App: React.FC = () => {
   )
 }
 
-render(<App />, document.getElementById('root))
+render(<App />, document.getElementById('root'))
 ```
 
 ## API
@@ -82,7 +82,7 @@ const SomeComponent = () => {
   ...
   return (
     <>
-      <!-- 'dispatch' is fully typed! -->
+      {/* 'dispatch' is fully typed! */}
       <button onClick={() => dispatch.foo()}>foo</button>
       <button onClick={() => dispatch.bar(arg1, arg2)}>foo</button>
       <button onClick={() => dispatch.foo(arg3, arg41, arg42)}>foo</button>
