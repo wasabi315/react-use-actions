@@ -1,5 +1,10 @@
 # react-use-actions
 
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
+![](https://github.com/wasabi315/react-use-actions/workflows/CI/badge.svg)
+[![David](https://david-dm.org/tterb/Hyde.svg)](https://david-dm.org/tterb/Hyde)
+
 > Just another style of `useReducer`
 
 In this `react-use-actions` world, we invoke the `dispatch` with method call style
